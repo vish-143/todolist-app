@@ -1,9 +1,9 @@
-import { ADD, DELETE, EDIT } from "./action_types";
+import { ADD, DELETE } from "./actiontypes";
 
-export const addItem = (task) => (dispatch) => {
+export const addItem = (task, id, color,date) => (dispatch) => {
     dispatch({
         type: ADD,
-        payload: task
+        payload: { list: task, id: id, color: color, checked: false,date:date}
     })
 }
 
@@ -14,10 +14,4 @@ export const deleteItem = (task) => (dispatch) => {
     })
 }
 
-export const editItem = (task,id) => (dispatch) => {
-    console.log(task);
-    dispatch({
-        type: EDIT,
-        payload: {task:task,id:id}
-    })
-}
+

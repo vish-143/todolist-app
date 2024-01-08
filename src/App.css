@@ -1,188 +1,38 @@
-.body {
-  margin: 0;
-}
-
-.mainContainer {
-  width: 50%;
-  margin: auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #D6D7EF;
-}
-
-.header {
-  background-color: #9395D3;
-  height: 20%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.head {
-  color: white;
-  margin: 0;
-  padding: 30px;
-}
-
-.taskContainer {
-  background-color: #D6D7EF;
-  padding: 1px;
-  max-height: 600px;
-  overflow: auto;
-}
-
-.card {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
-  border-radius: 20px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 10px;
-  margin-right: 10px;
-  align-items: center;
-}
-
-.title {
-  color: #9395D3;
-  text-align: left;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.icons {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.icon {
-  font-size: 24px;
-  color: #9395D3;
-}
-
-.details {
+.App {
   text-align: center;
 }
 
-.addLogoDiv {
-  font-size: 90px;
-  color: white;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.addLogo,
-.deleteIcon,
-.editIcon,
-.checkIcon,
-.allIcon,
-.comIcon,
-.checkIconColor,.addArrow,.pointer,.completeIcon,.lsitIcon {
-  cursor: pointer;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.footerSection {
-  background-color: #9395D3;
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.lsitIcon {
-  color: white;
-}
-
-.checkIconColor {
-  font-size: 24px;
-  color: green;
-}
-
-.completeIcon {
-  color: rgb(57, 55, 55);
-}
-
-.addHeader {
-  display: flex;
-  gap: 80px;
-  background-color: #9395D3;
-  align-items: center;
-}
-
-.addArrow {
-  color: white;
-  font-size: 40px;
-  margin-left: 30px;
-}
-
-.addHead {
-  font-size: 30px;
-  color: white;
-  padding: 30px;
-}
-
-.addMainContainer {
-  width: 50%;
-  margin: auto;
+.App-header {
+  background-color: #282c34;
   min-height: 100vh;
-}
-
-.textField {
   display: flex;
   flex-direction: column;
-  padding: 30px;
-  gap: 40px;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.addTaskContainer {
-  background-color: white;
+.App-link {
+  color: #61dafb;
 }
 
-.addButtonDiv {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px;
-}
-
-.addButton {
-  padding: 15px;
-  width: 46%;
-  height: 70px;
-  background-color: #9395D3 !important;
-  font-size: larger !important;
-  font-weight: bold !important;
-}
-.editButton{
-  padding: 15px;
-  width: 175px;
-  height: 60px;
-  background-color: #9395D3 !important;
-  font-size: larger !important;
-  font-weight: bold !important;
-}
-
-.subTitle {
-  text-align: left;
-  margin-top: 10px;
-}
-
-.dateField {
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  border-bottom: 1px solid gray;
-  outline: none;
-  font-size: 18px;
-}
-
-.notCompleted{
-  text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    color: #9395D3;
-    margin-top: 30px;
-}
-.disableEdit{
-  display: none;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

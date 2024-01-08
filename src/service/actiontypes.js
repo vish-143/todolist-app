@@ -1,8 +1,7 @@
 const ADD="ADD";
 const DELETE="DELETE";
 const EDIT="EDIT";
-const COMPLETED="COMPLETED";
+const THEME="THEME";
 const CHECK="CHECK";
 
-
-export { ADD, CHECK, DELETE, EDIT, COMPLETED};
+export { ADD, CHECK, DELETE, EDIT, THEME };

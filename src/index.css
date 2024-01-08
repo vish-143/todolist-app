@@ -1,3 +1,129 @@
 .body{
   margin: 0;
 }
+
+.contentContainer {
+  display: flex;
+  margin: 50px;
+}
+
+.head {
+  text-align: center;
+}
+
+.addDetails {
+  width: 25%;
+}
+
+.input {
+  height: 70px;
+  width: 215px;
+  border-color: pink;
+  text-align: center;
+  font-size: large;
+  border-radius: 25px
+}
+
+.showDetails {
+  display: flex;
+  border: 2px solid pink;
+  margin-left: 10px;
+  width: 71%;
+  height: 550px;
+  max-height: 550px;
+  overflow: auto;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+
+.card {
+  width: 195px;
+  height: 229px;
+  margin: 30px;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-color: rgb(255, 192, 203);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.shadow {
+  box-shadow:
+    0 0 0 2px rgb(255, 192, 203),
+    0.3em 0.3em 1em rgb(255, 192, 203);
+}
+
+.cardName {
+  width: 100%;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  height: 20%;
+}
+
+.checkBoxDiv {
+  height: 80%;
+}
+
+.lable {
+  word-break: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.taskStatus {
+  margin-top: 60px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  height: 95lvb;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  height: 95lvb;
+}
+
+.changeTheme {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.dateField {
+  background-color: white;
+  border-radius: 21px;
+  margin-bottom: 10px;
+  width: 60%;
+  height: 62px;
+  font-size: 21px;
+  border-color: pink;
+  color: gray;
+}
+
+.cardDate {
+  text-align: center;
+  margin-bottom: 20px;
+}
